@@ -84,6 +84,10 @@ body{
     font-size: smaller;
 }
 
+.about_company .about_us a:hover{
+    background-image: linear-gradient(to right, white, purple, blue);
+}
+
 .company_card {
    background-color:aliceblue;   
 }
@@ -303,8 +307,13 @@ height: 50vh;
 }
 
 .our_team .box{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     font-family: cursive;
+    background-image: linear-gradient(to right, lightpink, lightblue);
+}
+
+.our_team .box:hover{
+    background-image: linear-gradient(to right, lightblue,lightpink);
 }
 
 .our_team h1{
@@ -392,5 +401,348 @@ height: 50vh;
 }
 
 @media screen and (min-width:500px) {
+    .about_company{
+        margin: 30px;
+    }
+    
+    .about_company .about_us{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .about_company .about_us h2{
+        color: purple;
+        padding: 20px;
+    }
+    
+    .about_company .about_us h1{
+         padding: 15px;
+         font-weight: bolder;
+    }
+    
+    .about_company .about_us p{
+        padding: 20px;
+        line-height: 1.5rem;
+        margin-bottom: 20px;
+    }
+    
+    .about_company .about_us a{
+        text-decoration: none;
+        margin-left: 20px;
+        background-color:blueviolet;
+        padding: 18px;
+        border-radius: 25px;
+        background-image: linear-gradient(to right, purple,blue,white);
+        color: #fff;
+        font-size: smaller;
+    }
+    
+    .company_card {
+       background-color:aliceblue;   
+    }
+    
+    .company_card{
+       padding: 50px 15px 50px 15px;
+    }
+    
+    .paragraphs{
+        font-size:smaller;
+        line-height: 1.5rem;
+        color: gray;
+        padding-bottom: 40px;
+    }
+    
+    .paragraphs .second_paragraph{
+        padding-left: 132px;
+    }
+    
+    .small_cards{
+        padding: 20px;
+    }
+    
+    .company_card h1{
+        padding: 20px;
+    }
+    
+    .top_section .image_one{
+        background-image: url("images/first_image.jpg");
+        display: flex;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 50vh;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    
+    .top_section .image_one p{
+        background-color: grey;
+        padding: 12px;
+        border-radius: 20px;
+        margin-bottom: auto;
+        margin-right: auto;
+    }
+    
+    .top_section .image_one h3{
+        color: gray;
+        margin-right: auto;
+        line-height: 2px;
+        font-size:x-large;
+        margin-bottom: 80px;
+    }
+    
+    .top_section .image_one h1{
+        display: flex;
+        margin-right: auto;
+        color: gray;
+    }
+    
+    .top_section .image_one h1, h3{
+        line-height: 4px;
+    }
+    
+    .fa-heart{
+        color: yellowgreen;
+    }
+    
+    .bottom_section{
+        padding: 25px;
+        background-color: #fff;
+    }
+    
+    .bottom_section h3{
+        color:purple;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .bottom_section p{
+        color: gray;
+        margin-top: 30px;
+        font-size: medium;
+        margin-bottom: 25px;
+    }
+    
+    .bottom_section .fee{
+        color: palevioletred;
+    }
+    
+    .top_section .image_two{
+    background-image: url("images/second_image.jpg");
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    }
+    
+    .top_section .image_two h1{
+        color: gray;
+        margin-bottom: 110px;
+    }
+    
+    .top_section .image_three{
+        background-image: url("images/third_image.jpg");
+        display: flex;
+        background-size: cover;
+        background-repeat: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 50vh;
+    }
+    
+    .top_section .image_three h1{
+        color: blue;
+        margin-bottom: 232px;
+        background-image: linear-gradient(to right, white, aquamarine, white, aquamarine, white);
+        border: none;
+        border-radius: 30px;
+        box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 1px;
+     }
+    
+     .top_section .image_three h3{
+        color: gray;
+     }
+    
+     .top_section .image_four{
+        background-image: url("images/fourth_image.jpg");
+        display: flex;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 50vh;
+     }
+    
+     .top_section .image_four p{
+        margin-bottom: auto;
+        margin-right: auto;
+        background-color: gray;
+        border-radius: 20px;
+        padding: 12px;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+    
+     .top_section .image_four h1{
+        color: lightpink;
+        margin-bottom: 150px;
+        background-image: linear-gradient(to left, white, gray, white, gray);
+        padding: 2px;
+        border: none;
+        border-radius: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+    
+     .training_image{
+        background-image: url("images/training_image.jpg");
+        display: flex;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        background-position: no-repeat;
+        flex-direction: column;
+        height: 50vh;
+     }
+     
+     .training_image h2{
+        color: #fff;
+     }
+    
+     .training_image p{
+        margin-top: 150px;
+        color: #fff;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-right: auto;
+        margin-left: 15px;
+        background-image: linear-gradient(to right, white, gray, white);
+        padding: 15px;
+        border-radius: 25px;
+    }
+    
+    .light_boxes{
+        display: flex;
+        margin-top: 30px;
+    }
+    
+    .light_boxes .light_box{
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        border: none;
+        border-radius: 25px;
+    }
+    
+    .light_boxes .light_box h1{
+        color: gray;
+    }
+    
+    .light_boxes .light_box h5{
+        color: gray;
+        font-size: x-small;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .our_team{
+        margin-top: 50px;
+        background-color: lightyellow;
+        border-radius: 4px;
+    }
+    
+    .our_team .box{
+        background-color: antiquewhite;
+        font-family: cursive;
+    }
+    
+    .our_team h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: gray;
+    }
+    
+    .our_team .box > div{
+        color: gray;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin-left: 250px;
+    }
+    
+    .our_team .box p{
+        color: gray;
+        padding-left: 15px;
+    }   
+    
+    .our_team .box{
+        color: gray;
+        border-radius: 15px;
+        margin-bottom: 50px;
+    }
+    
+    .our_team .box h4{
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    
+    .our_team .box h4 > span{
+        display: block;
+        padding-bottom: 20px;
+    }
+    
+    .footer{
+        background-image: linear-gradient(to right, purple,blue, lightpink);
+    }
+    
+    .footer:hover{
+        background-image: linear-gradient(to right, lightpink, purple, gray, blue, purple);
+    }
+    
+    .footer .social_platforms{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 70px;
+        padding-top: 40px;
+    }
+    
+    .line_through{
+        height: 1px;
+        width: 440px;
+        background-color: #dcdcdc;
+        margin-left: 1px;
+    }
+    
+    .footer .copy_right{
+        margin-top: 50px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer .copy_right h6{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        padding-top: 2px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .footer .time{
+        margin-top: 40px;
+        padding-bottom: 30px;
+        color:#fff;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer .time h3{
+        line-height: 1.5rem;
+    }
     
 }
