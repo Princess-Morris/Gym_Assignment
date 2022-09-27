@@ -190,9 +190,9 @@ flex-direction: column;
 height: 50vh;
 }
 
-.top_section .image_two h1{
+.top_section .image_two > div{
     color: gray;
-    margin-bottom: 110px;
+    margin-bottom: 70px
 }
 
 .top_section .image_three{
