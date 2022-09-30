@@ -521,8 +521,9 @@ flex-direction: column;
     
     .about_company .about_us p{
         padding: 15px 30px ;
-        line-height: 1.2rem;
+        line-height: 1.5rem;
         margin-bottom: auto;
+        letter-spacing: normal;
     }
     
     .about_company .about_us a{
@@ -791,12 +792,17 @@ flex-direction: column;
     }
     
     .our_team .box{
-        background-color: antiquewhite;
+        background-color: white;
         font-family: cursive;
         height: 250px;
         color: gray;
         border-radius: 15px;
         margin-bottom: 40px;
+        background-image: none;
+    }
+
+    .our_team .box:hover{
+        background-image: linear-gradient(to bottom right, blue, lightblue);
     }
     
     .our_team h1{
@@ -806,7 +812,7 @@ flex-direction: column;
         color: gray;
         padding-top: 80px;
         padding-bottom: 20px;
-        background-color: blue;
+        /* background-color: blue; */
     }
 
     .our_team .square_boxes{
@@ -818,29 +824,45 @@ flex-direction: column;
         padding-right: 5px;
     }
     
+    .our_team .box > div{
+        color: black;
+    }
+
     .our_team .box p{
         color: gray;
         padding-left: 15px;
         letter-spacing: normal;
     }   
+
+    .our_team .box p:hover{
+        color: black;
+    }
     
     .our_team .box h4{
         margin-top: 10px;
         margin-left: 40px;
     }
     
+    .our_team .box h4:hover{
+        color: black;
+    }
+
     .our_team .box h4 > span{
         display: block;
         padding-bottom: 20px;
     }
+
+   .our_team .box h4 > span{
+        color: white;
+    }
     
     .footer{
-        background-image: linear-gradient(to right, purple,blue, lightpink);
+        background-image: linear-gradient(to right, purple, blue, blueviolet);
         height: 180px;
     }
     
     .footer:hover{
-        background-image: linear-gradient(to right, lightpink, purple, gray, blue, purple);
+        background-image: linear-gradient(to right, purple, blue, blueviolet);
     }
     
     .footer .social_platforms{
